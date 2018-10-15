@@ -1,0 +1,43 @@
+/* Common */
+.clearfix::after {
+	content:'';
+	display: block;
+	clear: both;
+}
+.wrapper {
+	max-width:;
+    margin:0 auto;
+    position: relative
+}
+.hide {
+	display: none
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+
+  font-size: 14px;
+  color:#ccc; 
+}
+
+
+
+
+
+
+
+/*** header ***/
+
+
+
+/*** footer ***/
+
+
+
+
+
+
+
+
+
