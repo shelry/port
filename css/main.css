@@ -67,9 +67,9 @@ html, body{font-family: 'Poppins', sans-serif; width:100%; height:100%; overflow
 
 /*네번째거 설명*/
 #content .con3 .tit:hover{border-bottom: 8px solid #0793CF}
-#content .con3 .desc_list > li .core{height:10px; background-color:#0793CF;}
-#content .con3 .desc_list > li .point{ height:10px; background-color:#A6CF39;}
-#content .con3 .desc_list > li .sub{ height:10px; background-color:#F1F2F2;}
+#content .con3 .desc_list > li .core{height:10px; background-color:#313579;}
+#content .con3 .desc_list > li .point{ height:10px; background-color:#CC112C;}
+#content .con3 .desc_list > li .sub{ height:10px; background-color:#6AC3E7;}
 
 /*다섯번째거 설명*/
 #content .con4 .tit:hover{border-bottom: 8px solid #f6c8c8}
