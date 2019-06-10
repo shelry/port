@@ -90,8 +90,10 @@ html, body{font-family: 'Poppins', sans-serif; width:100%; height:100%; overflow
 @media (max-width:1024px) {
   #header{width:100%; height:80px; border-bottom:1px solid #4e4e4e;}
   #header .logo{display:none;}
+  .section{padding-left:0;}
   .skill{display:none;}
-  #sec1{padding-left:0;}
+  #sec1{padding-left:0; background:#000;}
+  #sec2{background:#efefef;}
   #sec2 .project_list li a{width:300px; height:300px;}
   #content .con{padding-left:0; text-indent:10px;}
   #content .con .desc_list > li{width:90%; padding:20px 0;}
