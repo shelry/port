@@ -92,6 +92,7 @@ html, body{font-family: 'Poppins', sans-serif; width:100%; height:100%; overflow
   body{overflow-x:hidden;}
   #header{width:100%; height:40px; border-bottom:1px solid #4e4e4e;}
   #header .logo{position: absolute;left: 5%; top: 0; width:70%}
+  #header .link{display: none;}
   #header #myMenu{padding:10px 0;}
   #header #myMenu > li{float:left; width:33%; padding:0; text-align: center;}
   .section{padding-left:0; width:100%}
