@@ -45,7 +45,7 @@ html, body{font-family: 'Poppins', sans-serif; width:100%; height:100%; overflow
 #content .con .tit:hover{border-bottom: 8px solid #DF0029}
 #content .con .desc{font-family: 'Gothic A1', sans-serif; font-weight: 400;  padding-top:20px; text-align: justify; }
 #content .con .desc_list {padding-top:30px;}
-#content .con .desc_list > li{width:20%; float: left;}
+#content .con .desc_list > li {width:20%; float: left;}
 #content .con .desc_list > li .stit{font-weight: 700; }
 #content .con .desc_list > li .sdesc{padding:15px 0 10px; }
 #content .con .desc_list > li .core{height:10px; background-color:#EC870C;}
