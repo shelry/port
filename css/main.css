@@ -88,6 +88,7 @@ html, body{font-family: 'Poppins', sans-serif; width:100%; height:100%; overflow
 
 /*미디어쿼리*/
 @media (max-width:1024px) {
+  body{overflow-x:hidden;}
   #header{width:100%; height:40px; border-bottom:1px solid #4e4e4e;}
   #header .logo{display:none;}
   #header #myMenu{padding:10px 0;}
