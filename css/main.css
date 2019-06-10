@@ -88,18 +88,19 @@ html, body{font-family: 'Poppins', sans-serif; width:100%; height:100%; overflow
 
 /*미디어쿼리*/
 @media (max-width:1024px) {
-  #header{width:100%; height:80px; border-bottom:1px solid #4e4e4e;}
+  #header{width:100%; height:90px; border-bottom:1px solid #4e4e4e;}
   #header .logo{display:none;}
   .section{padding-left:0; width:100%}
   .skill{display:none;}
   #sec1{padding-left:0; background:#000;}
   #sec2{background:#efefef;}
   #sec2 .project_list li a{width:300px; height:300px;}
-  #content .con{padding-left:0; text-indent:10px;}
-  #content .con .desc_list > li{width:90%; padding:20px 0;}
+  #content{width:90%; left:5%}
+  #content .con{padding-left:0; padding-top:25%;}
+  #content .con .tit{font-size:40px;}
+  #content .con .desc_list > li{width:100%; padding:20px 0;}
   #content .con{border:none;}
   .color{padding-left:5%}
-  #content .con .desc_list > li{width:90%;}
   #content .con .desc_list > li .stit{border-bottom:1px solid #999; padding-bottom:10px;}
   #content .img img{    width: 150%;
     transform: translateX(-20%);}
