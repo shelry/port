@@ -98,6 +98,7 @@ html, body{font-family: 'Poppins', sans-serif; width:100%; height:100%; overflow
   #sec1{padding-left:0; background:#000;}
   #sec2{background:#efefef;}
   #sec2 .project_list li a{width:300px; height:300px;}
+  #sec3 .profile{width:100%; top:40%}
   #content{width:90%; left:5%}
   #content .con{padding-left:0; padding-top:25%;}
   #content .con .tit{font-size:40px;}
