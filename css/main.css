@@ -23,7 +23,7 @@ html, body{font-family: 'Poppins', sans-serif; width:100%; height:100%; overflow
 #sec1 .skill .pos{ overflow: hidden; width:100%;}
 #c {position: absolute; left: -25%; bottom:-180px; width:130%; }
 #sec1 .change_word{width:100%; text-align: center;}
-#sec1 .change_word li{display:block; width:50%; font-size:100px; opacity: 0; position: absolute; left:25%; top:38%; transition:all 0.1s; font-weight: 600;}
+#sec1 .change_word li{display:block; width:50%; font-size:100px; opacity: 0; position: absolute; left:25%; top:43%; transition:all 0.1s; font-weight: 600;}
 #sec1 .change_word li:nth-child(1){color:#FFDF69}
 #sec1 .change_word li:nth-child(2){color:#FF75A8}
 #sec1 .change_word li:nth-child(3){color:#73AEB9}
