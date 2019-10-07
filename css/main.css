@@ -1,4 +1,4 @@
-html, body{font-family: 'Poppins', sans-serif; width:100%; height:100%; overflow: hidden;}
+html, body{font-family: 'Noto Sans KR', sans-serif; width:100%; height:100%; overflow: hidden;}
 #fp-nav ul li{display: none;}
 
 /*header*/
@@ -96,25 +96,32 @@ html, body{font-family: 'Poppins', sans-serif; width:100%; height:100%; overflow
 
 /*미디어쿼리*/
 @media (max-width:1024px) {
-#header{width:100%; height:48px; border-bottom:1px solid #4e4e4e; border-right:none;}
-#header .logo{position: absolute;left: 5%; top: 12px; width:70%}
-#header #myMenu{padding:16px;}
-#header #myMenu > li{float:left; width:33%; padding:0; text-align: center;}
-.section{padding-left:0; width:100%}
-.skill{display:none;}
-#sec1{padding-left:0; background:#fff;}
-#sec2{background:#efefef;}
-#sec2 .project_list li a{width:300px; height:300px;}
-#sec3 .profile{width:100%; top:40%}
-#content{margin:0 auto; width:90%;}
-#content .con{padding:80px 0 0 0; border:none; height:auto;}
-#content .con .tit{font-size:40px;}
-#content .con .desc_list > li{width:100%; padding:20px 0;}
-#content .con .desc_list {display: block;}
-#content .con .desc_list > li {margin:24px 0;}
-    
+    body{overflow:auto}
+    #header{width:100%; height:48px; border-bottom:1px solid #4e4e4e; border-right:none;}
+    #header .logo{position: absolute;left: 5%; top: 12px; width:70%}
+    #header #myMenu{padding:16px;}
+    #header #myMenu > li{float:left; width:33%; padding:0; text-align: center;}
+    .section{padding-left:0; width:100%}
+    .skill{display:none;}
+    #sec1{padding-left:0; background:#fff;}
+    #sec2{background:#efefef;}
+    #sec2 .project_list li a{width:300px; height:300px;}
+    #sec3 .profile{width:100%; top:40%}
+    #content{margin:0; width:100%;}
+    #content .con{padding:80px 0 0 0; border:none; height:auto; width:90%; margin:0 auto;}
+    #content .con .tit{font-size:40px;}
+    #content .con .desc_list > li{width:100%; padding:20px 0;}
+    #content .con .desc_list {display: block;}
+    #content .con .desc_list > li {margin:24px 0;}
 
-#content .con .desc_list > li .stit{border-bottom:1px solid #999; padding-bottom:10px;}
-#content .img img{    width: 150%;}
+    #content .img.nong{background-size:cover;}
+    #content .img.quiz{background:url(../images/iPhone%206%20Designer%20Desk.png) center no-repeat; background-size:cover;}
+    #content .img.us{background:url(../images/us.jpg) center no-repeat; background-size:cover;}
+    #content .img.repure{background:url(../images/mockup.png) center center no-repeat; background-size:cover;}
+    #content .img.keto{background:url(../images/macbook2.jpg) 73% no-repeat; background-size:cover;}
+    #content .img.pet{background:url(../images/pet.png) center no-repeat; background-size:cover;}
+
+    #content .con .desc_list > li .stit{border-bottom:1px solid #999; padding-bottom:10px;}
+    #content .img img{    width: 150%;}
 
 }
