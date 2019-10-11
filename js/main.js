@@ -24,9 +24,4 @@ $(function(){
         },300)
     }
     $('#sec2 .project_list li').hover(hoverIn, hoverOut);
-
-      AOS.init({
-        easing: 'ease-in-out-sine'
-      });
-
 })//ready
