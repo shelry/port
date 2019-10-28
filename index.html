@@ -5,105 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMaND</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400,700,900&display=swap&subset=korean" rel="stylesheet">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/fullpage.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/vendors/easings.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/vendors/scrolloverflow.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/fullpage.min.js"></script>
-    <script src="js/fullpagejs.js"></script>
+    
 </head>
 
 <body>
 
     <header id="header">
         <ul id="myMenu">
-             <li data-menuanchor="ima_d" class="active"><a href="#ima_d">IMa_D</a></li>
-            <li data-menuanchor="project"><a href="#project">project</a></li>
+             <li data-menuanchor="ima_d" class="active"><a href="#sec1">IMa_D</a></li>
+            <li data-menuanchor="project"><a href="#sec2">project</a></li>
         
-            <li data-menuanchor="contact"><a href="#contact">contact</a></li>
+            <li data-menuanchor="contact"><a href="#sec3">contact</a></li>
         </ul>
     </header>
     
-    <div id="fullpage">
-        <div id="sec1" class="section">
-            <ul class="change_word">
-                <li class="on">web</li>
-                <li>ux/ui</li>
-                <li>mobile</li>
-                <li>web</li>
-                <li>product</li>
-                <li>service</li>
-            </ul>
-            <h2 class="stit webHide">I'M a _______ Creater</h2>
-            <h2 class="stit moHide">I'M a _______<br>Creater</h2>
-            <h3 class="stit"></h3>
-            <div class="pos">
-                <div class="skill_1"></div>
-                <div class="skill_2"></div>
-                <div class="skill_3"></div>
-                <div class="skill_4"></div>
-                <div class="skill_5"></div>
-                <div class="skill_6"></div>
-            </div>
-            <ul class="skill">
-                <li><p class="desc">Photoshop</p></li>
-                <li><p class="desc">Illustrator</p></li>
-                <li><p class="desc">HTML/css</p></li>
-                <li><p class="desc">javascript</p></li>
-                <li><p class="desc">ux/ui</p></li>
-                <li><p class="desc">framework</p></li>
-            </ul>
+    <div id="sec1" class="section">
+       <div class="word_pos">
+            <h2 class="stit">I'M a
+               <div class="moHide"><br></div>
+               <div class="change_word">
+                    <div class="on">web</div>
+                    <div>ux/ui</div>
+                    <div>mobile</div>
+                    <div>web</div>
+                    <div>product</div>
+                    <div>service</div>
+                </div><div class="moHide"><br></div>
+                Creater
+            </h2>
         </div>
-        
-        <div id="sec2" class="section">
-            <ul class="project_list clearfix">
-                <li>
-                  <a href="project4.html">
-                   <div class="context">
-                    <p>웹사이트 제작</p>
-                    <span>제작기간 : 2019.05 - 2019.05</span>
+        <div class="pos">
+            <div class="skill_1"></div>
+            <div class="skill_2"></div>
+            <div class="skill_3"></div>
+            <div class="skill_4"></div>
+            <div class="skill_5"></div>
+            <div class="skill_6"></div>
+        </div>
+        <ul class="skill">
+            <li><p class="desc">Photoshop</p></li>
+            <li><p class="desc">Illustrator</p></li>
+            <li><p class="desc">HTML/css</p></li>
+            <li><p class="desc">javascript</p></li>
+            <li><p class="desc">ux/ui</p></li>
+            <li><p class="desc">framework</p></li>
+        </ul>
+    </div>
+
+    <div id="sec2" class="section" >
+        <ul class="project_list clearfix">
+            <li data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+              <a href="project4.html">
+               <div class="context">
+                <p>웹사이트 제작</p>
+                <span>제작기간 : 2019.05 - 2019.05</span>
+                </div>
+              </a>
+            </li>
+            <li data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+                <a href="project5.html">
+                    <div class="context">
+                        <p>웹사이트 제작</p>
+                        <span>제작기간 : 2018.11 - 2018.12</span>
                     </div>
-                  </a>
-                </li>
-                <li>
-                    <a href="project5.html">
-                        <div class="context">
-                            <p>웹사이트 제작</p>
-                            <span>제작기간 : 2018.11 - 2018.12</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="project3.html">
-                        <div class="context">
-                            <p>제품 소개 웹사이트</p>
-                            <span>제작기간 : 2018.09 - 2018.10</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="project1.html">
-                        <div class="context">
-                            <p>웹사이트 제작</p>
-                            <span>제작기간 : 2018.11 - 2018.12</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="project2.html">
-                        <div class="context">
-                            <p>컨셉 어플 디자인</p>
-                            <span>제작기간 : 2018.06 - 2018.06</span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div id="sec3" class="section">
-         <div class="profile">
+                </a>
+            </li>
+            <li data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+                <a href="project3.html">
+                    <div class="context">
+                        <p>제품 소개 웹사이트</p>
+                        <span>제작기간 : 2018.09 - 2018.10</span>
+                    </div>
+                </a>
+            </li>
+            <li data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+                <a href="project1.html">
+                    <div class="context">
+                        <p>웹사이트 제작</p>
+                        <span>제작기간 : 2018.11 - 2018.12</span>
+                    </div>
+                </a>
+            </li>
+            <li data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+                <a href="project2.html">
+                    <div class="context">
+                        <p>컨셉 어플 디자인</p>
+                        <span>제작기간 : 2018.06 - 2018.06</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="sec3" class="section">
+    <div class="con_wrap">
+        <div class="profile" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
             <img src="images/profile-15.png" alt="" class="profile_img">
                <p class="tit">프로필</p>
                <ul class="profile_list">
@@ -112,7 +112,7 @@
                    <li><p>https://github.com/shelry/port</p></li>
               </ul>
          </div>
-          <div class="profile">          
+        <div class="profile" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">          
                <p class="tit">프로젝트 수행</p>
                <ul class="profile_list">
                    <li>
@@ -133,7 +133,7 @@
                    </li>
                </ul>
            </div>
-           <div class="profile">
+        <div class="profile" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
                 <p class="tit">수상경력</p>
                <ul class="profile_list">
                    <li><p>2016.07 창의력교육학회 학술대회 우수상</p></li>
@@ -141,16 +141,24 @@
                    <li><p>2017.02 IF Award 본상수상, 'Dot Navi'</p></li>
                    <li><p>2017.05 ACE포럼 학생 수기 발표 우수상</p></li>
                </ul>
-            
-           </div>
-            
-           
-        </div>
-            
-       <!--  <div class="section" id="sec4"> fp-auto-height // 섹션의 height가 100%보다 작을경우 
-      
-        </div>-->
+
+           </div>      
     </div>
-        <script src="js/main.js"></script>
+
+
+    </div>
+    <script src="js/main.js"></script>
+
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script>
+        //scrolltrigger
+        document.addEventListener('DOMContentLoaded', function(){
+            var trigger = new ScrollTrigger({
+                once: true
+
+            }, document.body, window);
+
+        });
+    </script>
 </body>
 </html>
