@@ -1,4 +1,23 @@
 /* Common */
+::-webkit-scrollbar { width: 0 !important }
+::selection {
+    background:#DF0029;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background:#DF0029;
+    color: #FFF;
+    text-shadow: none;
+}
+
+-webkit-selection {
+    background:#DF0029;
+    color: #FFF;
+    text-shadow: none;
+}
+
 .clearfix::after {
 	content:'';
 	display: block;
